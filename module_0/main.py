@@ -3,7 +3,7 @@ def game_core(predict):
     num_2 = 100
     count = 1
     text_1 = 'Загаданное число ='
-    text_2 = 'Использованое число попыток ='
+    text_2 = 'Использованая сумма попыток ='
     import random
     number=random.randint(num_1, num_2)
     while number != predict and count < num_2:
