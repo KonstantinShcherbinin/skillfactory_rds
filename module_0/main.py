@@ -5,8 +5,7 @@ def game_core(predict):
     text_1 = 'Загаданное число ='
     text_2 = 'Использованое число попыток ='
     import random
-    import numpy as np
-    number=np.random.randint(num_1, num_2)
+    number=random.randint(num_1, num_2)
     while number != predict and count < num_2:
         predict = (num_1 + num_2)//2
         count +=1
